@@ -40,7 +40,7 @@ module.exports = {
         contentBase: path.join(__dirname, "dist"),
         compress: true,
         inline: true,
-        port: 5000
+        port: process.env.port || 5000
     },
     devtool: 'source-map',
     plugins: [
