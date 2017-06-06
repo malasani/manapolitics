@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2015", /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'. */
+    "module": "es2015", /* Specify module code generation: 'commonjs', 'amd', 'system', 'umd' or 'es2015'. */
+    "jsx": "preserve", /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
+    // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
+    "sourceMap": true, /* Generates corresponding '.map' file. */
+    "outDir": "./", /* Redirect output structure to the directory. */
+    "strict": true /* Enable all strict type-checking options. */
+  },
+  "exclude": [
+    "node_modules/*/**"
+  ]
+}
